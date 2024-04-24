@@ -1,3 +1,5 @@
+# todo
+### 去掉手动引入的form-render/es文件
 <div style="display:flex;align-items:center;margin-bottom:24px">
   <img src="https://img.alicdn.com/tfs/TB17UtINiLaK1RjSZFxXXamPFXa-606-643.png" alt="logo" width="48px"/>
   <h4 style="font-size:30px;font-weight:600;display:inline-block;margin-left:12px">FormRender Mobile</h4>
