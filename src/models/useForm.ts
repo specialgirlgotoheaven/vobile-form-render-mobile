@@ -2,11 +2,11 @@ import { useRef } from 'react';
 import { Form } from 'antd-mobile';
 import { isMatch, cloneDeep } from 'lodash-es';
 
-import { transformFieldsData, getSchemaFullPath } from 'form-render/es/models/formCoreUtils';
-import { parseBindToValues, parseValuesToBind } from 'form-render/es/models/bindValues';
-import { flattenSchema as flatten } from 'form-render/es/models/flattenSchema';
-import filterValuesUndefined from 'form-render/es/models/filterValuesUndefined';
-import filterValuesHidden from 'form-render/es/models/filterValuesHidden';
+import { transformFieldsData, getSchemaFullPath } from '../form-render/es/models/formCoreUtils';
+import { parseBindToValues, parseValuesToBind } from '../form-render/es/models/bindValues';
+import { flattenSchema as flatten } from '../form-render/es/models/flattenSchema';
+import filterValuesUndefined from '../form-render/es/models/filterValuesUndefined';
+import filterValuesHidden from '../form-render/es/models/filterValuesHidden';
 import { _set, _get, _has, _merge, _mergeWith, isFunction, isObject, isArray, _isUndefined, valueRemoveUndefined, hasFuncProperty } from '../utils';
 
 import type { FormInstance } from '../type';
