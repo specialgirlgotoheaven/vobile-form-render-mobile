@@ -11,7 +11,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 import React from 'react';
 import FieldItem from './FieldItem';
 import FieldList from './FieldList';
-import sortProperties from 'form-render/es/models/sortProperties';
+import sortProperties from '../../es/form-render/models/sortProperties'; 
 ;
 ;
 var renderItem = function renderItem(props) {

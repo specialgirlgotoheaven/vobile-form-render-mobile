@@ -3,9 +3,9 @@ import { Form, Grid } from 'antd-mobile';
 import { useStore } from 'zustand';
 import classnames from 'classnames';
 import { cloneDeep } from 'lodash-es';
-import { parseValuesToBind } from '../form-render/es/models/bindValues';
-import filterValuesUndefined from '../form-render/es/models/filterValuesUndefined';
-import filterValuesHidden from '../form-render/es/models/filterValuesHidden';
+import { parseValuesToBind } from '../../es/form-render/models/bindValues'; 
+import filterValuesUndefined from '../../es/form-render/models/filterValuesUndefined';
+import filterValuesHidden from '../../es/form-render/models/filterValuesHidden';
 
 import { valueRemoveUndefined, _cloneDeep, isFunction } from '../utils';
 import { FRContext } from '../models/context';
@@ -18,7 +18,7 @@ import {
   msToTime,
   getSessionItem,
   setSessionItem
-} from '../form-render/es/models/formCoreUtils';
+} from '../../es/form-render/models/formCoreUtils'; 
 import RenderCore from '../render-core';
 
 import './index.less';

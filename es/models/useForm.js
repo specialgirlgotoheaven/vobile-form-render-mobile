@@ -8,11 +8,11 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 import { __rest } from "tslib";
 import { useRef } from 'react';
 import { isMatch, cloneDeep } from 'lodash-es';
-import { transformFieldsData, getSchemaFullPath } from 'form-render/es/models/formCoreUtils';
-import { parseBindToValues, parseValuesToBind } from 'form-render/es/models/bindValues';
-import { flattenSchema as flatten } from 'form-render/es/models/flattenSchema';
-import filterValuesUndefined from 'form-render/es/models/filterValuesUndefined';
-import filterValuesHidden from 'form-render/es/models/filterValuesHidden';
+import { transformFieldsData, getSchemaFullPath } from '../../es/form-render/models/formCoreUtils'; 
+import { parseBindToValues, parseValuesToBind } from '../../es/form-render/models/bindValues';
+import { flattenSchema as flatten } from '../../es/form-render/models/flattenSchema';
+import filterValuesUndefined from '../../es/form-render/models/filterValuesUndefined';
+import filterValuesHidden from '../../es/form-render/models/filterValuesHidden';
 import { _set, _get, isFunction, isObject, isArray, hasFuncProperty } from '../utils';
 var updateSchemaByPath = function updateSchemaByPath(_path, _newSchema, formSchema) {
   var path = getSchemaFullPath(_path, formSchema);
