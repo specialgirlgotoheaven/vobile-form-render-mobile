@@ -12,7 +12,7 @@ import { useStore } from 'zustand';
 import classnames from 'classnames';
 import { getWidget } from '../../utils';
 import { ConfigContext } from '../../models/context';
-import getRuleList from '../../form-render/models/validates'; 
+import getRuleList from '../../form-render/es/models/validates';
 import FieldWrapper from './field';
 import { getParamValue, getFieldProps, getPath, getLabel, getExtraView } from './module';
 var UpperContext = /*#__PURE__*/createContext(function () {});

@@ -2,7 +2,7 @@ import _Form from "antd-mobile/es/components/form";
 import { __rest } from "tslib";
 import React, { useContext } from 'react';
 import { FRContext } from '../../models/context';
-import { isHasExpression, parseAllExpression } from '../../../es/form-render/models/expression';
+import { isHasExpression, parseAllExpression } from '../../form-render/es/models/expression';
 import { getDependValues } from './module';
 import Main from './main';
 export default (function (props) {

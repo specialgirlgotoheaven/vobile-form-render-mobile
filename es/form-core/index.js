@@ -10,13 +10,13 @@ import React, { useEffect, useContext } from 'react';
 import { useStore } from 'zustand';
 import classnames from 'classnames';
 import { cloneDeep } from 'lodash-es';
-import { parseValuesToBind } from '../../es/form-render/models/bindValues'; 
-import filterValuesUndefined from '../../es/form-render/models/filterValuesUndefined';
-import filterValuesHidden from '../../es/form-render/models/filterValuesHidden';
+import { parseValuesToBind } from '../form-render/es/models/bindValues';
+import filterValuesUndefined from '../form-render/es/models/filterValuesUndefined';
+import filterValuesHidden from '../form-render/es/models/filterValuesHidden';
 import { valueRemoveUndefined, isFunction } from '../utils';
 import { FRContext } from '../models/context';
 import transformProps from '../models/transformProps';
-import { valuesWatch, immediateWatch, yymmdd, msToTime, getSessionItem, setSessionItem } from '../../es/form-render/models/formCoreUtils';
+import { valuesWatch, immediateWatch, yymmdd, msToTime, getSessionItem, setSessionItem } from '../form-render/es/models/formCoreUtils';
 import RenderCore from '../render-core';
 import "./index.css";
 var FormCore = function FormCore(props) {

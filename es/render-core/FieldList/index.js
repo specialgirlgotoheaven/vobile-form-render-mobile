@@ -11,7 +11,7 @@ import React, { createContext, useContext } from 'react';
 import { AddCircleOutline } from 'antd-mobile-icons';
 import { useStore } from 'zustand';
 import { FRContext, ConfigContext } from '../../models/context';
-import { parseAllExpression } from '../../form-render/models/expression'; 
+import { parseAllExpression } from '../../form-render/es/models/expression';
 import { isFunction } from '../../utils';
 import "./index.css";
 var UpperContext = /*#__PURE__*/createContext(function () {});
