@@ -1,0 +1,10 @@
+.frm-widget-group-title {
+  font-size: 15px;
+  color: #999;
+  padding: 6px 16px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.frm-widget-group .adm-grid-item:first-of-type .adm-list-item-content {
+  border-top: none;
+}

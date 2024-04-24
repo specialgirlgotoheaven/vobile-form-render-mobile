@@ -1,0 +1,26 @@
+.frm-widget-card {
+  border-radius: 4px;
+  margin: 0 12px;
+  margin-top: 12px;
+}
+.frm-widget-card .adm-card-header {
+  border-bottom: none !important;
+}
+.frm-widget-card .adm-card-body {
+  padding: 0;
+}
+.frm-widget-card .adm-form-item {
+  padding-left: 4px;
+}
+.frm-widget-card-title {
+  margin-right: 6px;
+  padding-left: 4px;
+}
+.frm-widget-card-desc {
+  font-size: 12px;
+  word-break: break-all;
+  color: rgba(0, 0, 0, 0.45);
+}
+.frm-widget-card-no-title .adm-grid-item:first-of-type .adm-list-item-content {
+  border-top: none;
+}
