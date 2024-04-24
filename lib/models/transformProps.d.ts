@@ -1,0 +1,26 @@
+declare const transformProps: (props: any) => {
+    formProps: any;
+    schema: any;
+    displayType: any;
+    onFinish: any;
+    beforeFinish: any;
+    onMount: any;
+    watch: any;
+    readOnly: any;
+    column: any;
+    className: any;
+    locale: any;
+    configProvider: any;
+    form: any;
+    labelWidth: any;
+    validateMessages: any;
+    id: any;
+    onFinishFailed: any;
+    removeHiddenData: any;
+    logOnMount: any;
+    logOnSubmit: any;
+    labelCol: any;
+    fieldCol: any;
+    maxWidth: any;
+};
+export default transformProps;
